@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Home!</title>
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<style>
+h1{
+
+  font-family: "Georgia", bold;
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 200px;;
+  height:100px;
+}
+.cont{
+padding:10px;
+
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+* {
+  box-sizing: border-box;
+}
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column1 {
+  flex: 25%;
+  padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .column1 {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row1 {
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+	
+		  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <div class="container-fluid" style="background-image:url(ba.png);">
+			<a class="navbar-brand" href="#"><image src="images/coursify.png" height=35px></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			  <ul class="navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="#">Live Classes</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Video Library</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Course</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Book</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Board</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Exam</a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+	<div class="container-fluid">
+	  
+	  <div class="row1" style="padding-left:10%;padding-top:1%;background-image: url(images/back.png);  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
+		<div class="column1" style="marging-right:10px;margin-top:15%;"><h1><b>Clarify your doubts</h1><h1>in your language.</b></h1>
+		<button type="button" class="btn btn-danger">Ask your doubt now</button>
+		</div>
+		<div class="column1" style="padding-right:10%;padding-top:100px;"><div class="embed-responsive embed-responsive-16by9" >
+        <iframe class="embed-responsive-item" style="height:300px;width:450px;
+		    border: 10px solid transparent; 
+            border-image: linear-gradient(to right, blue, red); 
+            border-image-slice: 1; " src="images/one.mp4"%allowfullscreen></iframe>
+		</div>
+		</div>
+	  </div>
+	  <div class="row" style="padding-top:1%;">
+		<div class="col" style="float:left;width:20%;marging-right:10px;">
+			<div class="card" style="margin-left:50px;">
+			<div class="cont">
+				  <image src="images/calendar.png" style="width:70px;float:left;" >
+					<h4 ><b>40,000+</b></h4> 
+					<p >Doubts cleared</p> 
+				</div>
+			</div>
+		</div>
+		 <div class="col" style="float:left;width:20%;marging-right:10px;">
+				<div class="card">
+				  <div class="cont">
+				  <image src="images/calendar.png" style="width:70px;float:left" >
+					<h4 ><b>20,000+</b></h4> 
+					<p >State Boards</p> 
+				  </div>
+			</div>
+		</div>
+		 <div class="col" style="float:left;width:20%;marging-right:10px;">
+				<div class="card">
+				  <div class="cont">
+				  <image src="images/calendar.png" style="width:70px;float:left" >
+					<h4 ><b>1,00,000+</b></h4> 
+					<p >Video Lectures</p> 
+				  </div>
+			</div>
+		</div>
+		 <div class="col" style="float:left;width:20%;marging-right:10px">
+				<div class="card">
+				  <div class="cont">
+				  <image src="images/calendar.png" style="width:70px;float:left" >
+					<h4 ><b>5000+</b></h4> 
+					<p >Books Covered</p> 
+				  </div>
+			</div>
+		</div>
+	</div>
+	<div class="row1" style="padding-left:10%;padding-top:1%;">
+		<div class="column1" style="marging-right:10px;margin-top:15%;"><h1>Solve your doubts <font color=blue>faster</font></h1><h1>in your language.</h1>
+	    <br><h4><b>Accesible anywhere!</b></h4>
+		<p>Access information everywhere and anywhere</p>
+		<br><h4><b>One million+ videos</b></h4>
+		<p>Unlimited access to video solutions</p>
+		</div>
+		<div class="column1" style="padding:10%;">
+        <image style="width:450px;" src="images/tech.png">
+		</div>
+		</div>
+	  </div>
+	  <div class="row" >
+				<h1 style="margin-top:100px;coloR:#00316E" align=center><b>HOW IT WORKS!</b></h1>
+			</div>
+	   <div class="row" style="padding-left:15%;padding-top:1%;">
+			<div class="col" style="margin-top:2%;width:33.33%;">
+				<image src="images/ni.png" height=130px>
+				
+			</div>
+			<div class="col" style="margin-top:2%;width:33.33%;">
+				<image src="images/test.png" height=130px><br>
+			
+			</div>
+			<div class="col" style="margin-top:2%;width:33.33%;">
+				<image src="images/ni.png" height=130px><br>
+				
+			</div>
+		</div>
+		 <div class="row" style="padding-left:15%;padding-top:1%;">
+				<div class="col" style="margin-top:2%;width:33.33%;">
+					<h6>Have a doubt?</h6>
+				</div>
+				<div class="col" style="margin-top:2%;width:33.33%;">
+					<b><h6><font color=#00316E>Type your question</font></h6>
+					<h6><font color=#00316E >Or</font></h6>
+					<h6><font color=#00316E>Upload an image</font></h6></b>
+				</div>
+				<div class="col" style="margin-top:2%;width:33.33%;">
+					<h6>Get your solution!</h6>
+				</div>
+			</div>
+		    <div class="row" style="padding-left:40%;padding-right:40%;padding-top:1%;">
+				<button type="button" class="btn btn-danger" style="margin-top:2%;">Clarify your doubt now!</button>
+			</div>
+			 <div class="row" >
+				<h1 style="margin-top:100px;" align=center><font color=#00316E><b>LIVE</font> CLASSES</b></h1>
+			</div>
+		<div class="row1" style="padding-left:10%;padding-top:1%;">
+		
+			<div class="column1" style="padding-right:10%;padding-top:50px;">
+			<div class="embed-responsive embed-responsive-16by9" >
+			 <iframe class="embed-responsive-item" style="height:300px;width:450px;
+				border: 10px solid transparent; 
+				border-image: linear-gradient(to right, blue, red); 
+				border-image-slice: 1; " src="images/one.mp4"%allowfullscreen></iframe>
+			</div>
+			</div>
+			<div class="column1" style="marging-right:10px;margin-top:10px;">
+				<br><h4><b>Accesible anywhere!</b></h4>
+				<p>Access to quality education anytime, anywhere</p>
+				<br><h4><b>Expert Teachers</b></h4>
+				<p>Unlimited access to video solutions</p>
+				<br><h4><b>Interactive Sessions</b></h4>
+				<p>Small groups for maximum student-teacher interaction.</p>
+			</div>
+		</div>
+		 <div class="row" style="padding-top:1%;">
+		        <h3 align=center><b><font color=#00316E>FIRST CLASS FREE!</font></b><br>
+				<button type="button" class="btn btn-danger" style="margin-top:2%;width:180px;">Book a class now!</button></h3>
+			</div>
+</body>
+</html>
